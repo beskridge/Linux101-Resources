@@ -11,6 +11,10 @@ TCM Security Academy website: https://academy.tcm-sec.com/
 
 The Cyber Mentor Discord channel: https://discord.gg/tcm
 
+All commands used in videos: https://github.com/beskridge/Linux101-Resources/blob/main/all-commands.md
+
+Supplementary exercises: https://github.com/beskridge/Linux101-Resources/blob/main/exercises.md
+
 
 ## Introduction
 
