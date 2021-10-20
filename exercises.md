@@ -10,13 +10,13 @@ This document contains exercises for the TCM Academy course "Linux 101."  It is 
 
 ### Command Line Arguments and Options
 1. Using the man page for the `ls` command, create commands that accomplish the following:
-  - List the contents of a directory sorted by size while displaying the size in human-readable format
-  - List the contents of directory sorted by the last modification time
-  - List the contents of the current directory using a long listing format and recursively list the contents of all sub-directories.
+    - List the contents of a directory sorted by size while displaying the size in human-readable format
+    - List the contents of directory sorted by the last modification time
+    - List the contents of the current directory using a long listing format and recursively list the contents of all sub-directories.
 1. Using the man page for the `hostname` command, create commands that accomplish the following:
-  - Display any aliases associated with your current host.
-  - Display the IP address associated with your current host.
-  - Display all IP addresses associated with your current host.  Is there a difference between the results for this command and the previous one?  If so, why?
+    - Display any aliases associated with your current host.
+    - Display the IP address associated with your current host.
+    - Display all IP addresses associated with your current host.  Is there a difference between the results for this command and the previous one?  If so, why?
 
 ### Looking at Text Files: more and less
 1. Use the less command to look at the provided file `wordlist.txt`.  How do you search for "oop"?  Test your search by moving forwards and backwards through the results.
@@ -40,9 +40,9 @@ This document contains exercises for the TCM Academy course "Linux 101."  It is 
         bak3    file2    file3a    notes    test-old
 
     Demonstrate commands to accomplish the following tasks using as few characters as possible:
-  - List the `file1`, `file2`, and `file3` files only
-  - List the `notes` file only
-  - List the `file1`, `file3`, `bak1`, and `bak3` files
+    - List the `file1`, `file2`, and `file3` files only
+    - List the `notes` file only
+    - List the `file1`, `file3`, `bak1`, and `bak3` files
 1. Demonstrate a command to create a new directory `course` that is a sub-directory of the current working directory and a `students` directory that is a sub-directory of the `course` directory in a single command.
 1. Demonstrate a command to copy the file `example1.txt` from the sub-directory `project` to the sub-directory `backup` while changing the name of the file to `example-backup1.txt`.
 1. Demonstrate a command to move the file `example2.txt` from the sub-directory `project` to the sub-directory `backup` while changing the name of the file to `example-backup2.txt`.
