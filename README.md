@@ -14,6 +14,12 @@ The Cyber Mentor Discord channel: https://discord.gg/tcm
 
 ## Introduction
 
+GitHub repository: https://github.com/beskridge/Linux101-Resources
+
+Demonstration files (ZIP): https://github.com/beskridge/Linux101-Resources/raw/main/tcm-academy-linux101-demo-files.zip
+
+Demonstration files (Tarball): https://github.com/beskridge/Linux101-Resources/raw/main/tcm-academy-linux101-demo-files.tar.gz
+
 VirtualBox homepage: https://www.virtualbox.org/
 
 ### Linux Distributions
