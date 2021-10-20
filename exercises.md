@@ -19,11 +19,11 @@ This document contains exercises for the TCM Academy course "Linux 101."  It is 
   - Display all IP addresses associated with your current host.  Is there a difference between the results for this command and the previous one?  If so, why?
 
 ### Looking at Text Files: more and less
-1. Use the less command to look at the provided file wordlist.txt.  How do you search for "oop"?  Test your search by moving forwards and backwards through the results.
-1. Use the less command to look at the provided file shakespeare.txt.  How do you search for "thou"?  Test your search by moving forwards and backwards through the results.
+1. Use the less command to look at the provided file `wordlist.txt`.  How do you search for "oop"?  Test your search by moving forwards and backwards through the results.
+1. Use the less command to look at the provided file `shakespeare.txt`.  How do you search for "thou"?  Test your search by moving forwards and backwards through the results.
 
 ### Another Way to Look at Text Files: cat
-1. Demonstrate a command to concatenate the output from the file `example2.txt` in the `dir1` sub-directory, the file `random-numbers.txt` in the current directory, and the file `test-1237735244.txt` in the `dir-test` subdirectory to the screen.  Every output line should be numbered and end of lines should be indicated by the "$" symbol.
+1. Demonstrate a command to concatenate the output from the file `example2.txt` in the `dir1` sub-directory, the file `random-numbers.txt` in the current directory, and the file `test-1237735244.txt` in the `dir-test` subdirectory to the screen.  Every output line should be numbered and end of lines should be indicated by the `$` symbol.
 
 ## Files and Filesystems
 
@@ -34,10 +34,12 @@ This document contains exercises for the TCM Academy course "Linux 101."  It is 
 
 ### Working with Files and Directories
 1. Assume the following files are in the current working directory:
+
         $ls
         bak1    bak2a    file1     file3    file4c      test
         bak3    file2    file3a    notes    test-old
-Demonstrate commands to accomplish the following tasks using as few characters as possible:
+
+  Demonstrate commands to accomplish the following tasks using as few characters as possible:
   - List the `file1`, `file2`, and `file3` files only
   - List the `notes` file only
   - List the `file1`, `file3`, `bak1`, and `bak3` files
@@ -48,7 +50,7 @@ Demonstrate commands to accomplish the following tasks using as few characters a
 1. Demonstrate a command to create an empty file named `-h` (note the dash).  Demonstrate a command to move the file to the subdirectory `backup`.
 
 ### File and Path Expansion
-1. Demonstrate a command that lists all the files in `/usr/bin/` that contain the string 'cc' while in your home directory.
+1. Demonstrate a command that lists all the files in `/usr/bin/` that contain the string `cc` while in your home directory.
 1. Demonstrate a command that lists all the files in `/usr/bin/` that do not contain a digit in the filename.
 
 ### More Looking at Text Files: head, tail, and diff
@@ -57,7 +59,7 @@ Demonstrate commands to accomplish the following tasks using as few characters a
 1. Demonstrate a command to list the last five (5) lines of the `/var/log/syslog` file and list new lines as the file is updated.
 
 ### Hard and Soft Filesystem Links
-1. Demonstrate a command that creates a symbolic link named current that links to the subdirectory `courses/linux101/`.  Change directories to the symbolic link.  What is your current working directory?
+1. Demonstrate a command that creates a symbolic link named `current` that links to the subdirectory `courses/linux101/`.  Change directories to the symbolic link.  What is your current working directory?
 
 ### Compressing and Archiving Files
 1. Demonstrate a command that creates a ZIP archive of your home directory and stores it in the file `/tmp/home-backup.zip`.  What is the command that lists all the files in the archive so you can ensure the archive was properly created?
@@ -66,8 +68,8 @@ Demonstrate commands to accomplish the following tasks using as few characters a
 1. Demonstrate a command that creates a TAR’ed GZIP’ed compressed archive of your home directory and stores it in the file `/tmp/home-backup-2.tar.gz`.
 
 ### Searching the Filesystem
-1. Demonstrate a command to find all text files (i.e., files with a ".txt" extension) in your home directory.
-1. Demonstrate a command to find all text files (i.e., files with a ".txt" extension) in your home directory.  The search should follow any symbolic links it finds.
+1. Demonstrate a command to find all text files (i.e., files with a `.txt` extension) in your home directory.
+1. Demonstrate a command to find all text files (i.e., files with a `.txt` extension) in your home directory.  The search should follow any symbolic links it finds.
 1. Demonstrate a command to find all hidden files in user home directories that uses the find command and another command that uses the locate command.
 1. Demonstrate a command to find all files in your home directory that are larger than 512k.
 
@@ -75,13 +77,15 @@ Demonstrate commands to accomplish the following tasks using as few characters a
 
 ### File and Directory Permissions
 1. Convert the following octal permissions into symbolic form:
-       440
-       664
-       755
+         440
+         664
+         755
 1. Convert the following symbolic permissions into octal form:
+
        rw-rw-r--
        rwxr--r--
        rw-------
+
 1. Demonstrate a command to set the permissions `rwxrw-r--` on a file using symbolic arguments and another command that uses numeric arguments.
 1. Create a directory and populate it with some empty files.  Demonstrate a command that removes execute permission on the directory for the current user.  What is the effect of this change?
 1. Demonstrate a command to find all files with the SETUID permission.  What is special about these files?
@@ -89,13 +93,13 @@ Demonstrate commands to accomplish the following tasks using as few characters a
 ## Installing Software
 
 ### Package Management: Debian Systems
-1. Use debian.org to find the DEB for the latest version of the game xscorch that is compatible with your system.  Download the deb file and install it in your system.
-1. Install the ruby programming language on your system using apt.
+1. Use debian.org to find the DEB for the latest version of the game `xscorch` that is compatible with your system.  Download the `deb` file and install it in your system.
+1. Install the ruby programming language on your system using `apt`.
 1. Install the wireshark program using a GUI package manager.
 
 ### Package Management: RedHat Systems
-1. Use rpmfind.net to find the RPM for the latest version of the game ninvaders that is compatible with your system.  Download the rpm and install it in your system.
-1. Install the ruby programming language on your system using yum.
+1. Use rpmfind.net to find the RPM for the latest version of the game `ninvaders` that is compatible with your system.  Download the `rpm` and install it in your system.
+1. Install the ruby programming language on your system using `yum`.
 1. Install the wireshark program using a GUI package manager.
 
 ### Manually Installing Software
