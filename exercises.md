@@ -39,7 +39,7 @@ This document contains exercises for the TCM Academy course "Linux 101."  It is 
         bak1    bak2a    file1     file3    file4c      test
         bak3    file2    file3a    notes    test-old
 
-  Demonstrate commands to accomplish the following tasks using as few characters as possible:
+    Demonstrate commands to accomplish the following tasks using as few characters as possible:
   - List the `file1`, `file2`, and `file3` files only
   - List the `notes` file only
   - List the `file1`, `file3`, `bak1`, and `bak3` files
@@ -77,9 +77,11 @@ This document contains exercises for the TCM Academy course "Linux 101."  It is 
 
 ### File and Directory Permissions
 1. Convert the following octal permissions into symbolic form:
-         440
-         664
-         755
+
+       440
+       664
+       755
+
 1. Convert the following symbolic permissions into octal form:
 
        rw-rw-r--
@@ -225,14 +227,19 @@ https://via.placeholder.com/100/placeholder.png
 1. Create a regular expression that matches only words that start and end with a vowel and are at least three (3) characters long.
 1. Creating complex regular expressions is best done iteratively.  In this exercise, you will create increasingly more complex regular expressions to match various words related to the word email.  For this exercise, you are not allowed to use the period (`.`) operator.
   1. Create a regular expression that matches only the following words:
+
           e-mail
           email
+
   1. Update the previous regular expression to match only the following words:
+
           e-mail
           email
           e-mails
           emails
+
   1. Update the previous regular expression to match only the following words:
+
           e-mail
           email
           e-mails
@@ -241,15 +248,16 @@ https://via.placeholder.com/100/placeholder.png
           emailing
           e-mailings
           emailings
+
 1. The word "apparent" is frequently misspelled.  Create a regular expression that matches only the correct spelling and these common misspellings: apparent, apparent, apparent, apparent
 1. The word "guarantee" is frequently misspelled.  Create a regular expression that matches only the correct spelling and these common misspellings: guarantee, guarantee, guarantee
 1. Create a regular expression that matches only a valid social security number. (Source: https://en.wikipedia.org/wiki/Social_Security_number#Valid_SSNs)
 1. Create a regular expression that matches only the words that have three (3) consecutive double-letter pairs (e.g., the word "bookkeeper" has two consecutive o’s, k’s, and e’s).
 1. Create a regular expression that matches only a valid password with the following requirements:
-  - The password’s first character must be a letter.
-  - It must contain at least 3 characters.
-  - It must be no longer than 15 characters.
-  - No characters other than letters, numbers, and the underscore may be used.
+    - The password’s first character must be a letter.
+    - It must contain at least 3 characters.
+    - It must be no longer than 15 characters.
+    - No characters other than letters, numbers, and the underscore may be used.
 
 ## Scripting
 1. Write a shell script that displays the names of all directory files, but no other types of files, in the working directory.
