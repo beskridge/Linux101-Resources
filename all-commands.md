@@ -12,6 +12,14 @@ This document contains all the commands used in the TCM Academy course "Linux 10
     ls
     cd files
     cd ..
+    mv file or Folder  /home/username/distination/position
+    cp file or folder /home/username/distination/position 
+    mkdir FolderName
+    rmdir FolderName
+    touch FileName 
+    mv fileOldName  newFileName
+    ~ : this back one time to userDefault
+    
 
 ### Getting Help on the Command Line
     man ls
@@ -181,6 +189,8 @@ This document contains all the commands used in the TCM Academy course "Linux 10
     which ls
 
 ## Users and Groups
+    sudo useradd UserName
+    sudo passwd UserName
 
 ### Working with Users and Groups
     users
@@ -428,6 +438,11 @@ This document contains all the commands used in the TCM Academy course "Linux 10
     netstat -lt
     Type in separate terminal: python3 -m http.server
     netstat -lt
+    ifconfig /displaydns
+    ifconfig /release
+    ifconfig /renew
+    ifconfig /flushdns
+
 
 ### File Transfer Utilities
     scp file.txt 192.168.100.4:/home/bob/
@@ -465,6 +480,12 @@ This document contains all the commands used in the TCM Academy course "Linux 10
     file temp.txt
 
 ## Process Management
+   top 
+   ps
+   ps -u 
+   ps -A
+   kill -L
+   nice -n [value] [Process name]
 
 ### Process Information
     ps
