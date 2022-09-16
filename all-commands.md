@@ -359,6 +359,8 @@ This document contains all the commands used in the TCM Academy course "Linux 10
     ls -l $(cat file-list.txt)
 
 ## More Utilities
+ sudo apt install screenfetch
+ sudo screenfetch
 
 ### Searching and Processing Text
     man grep
