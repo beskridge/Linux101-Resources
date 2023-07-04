@@ -130,7 +130,7 @@ This document contains all the commands used in the TCM Academy course "Linux 10
     tail -f /var/log/auth.log
     <in another terminal> sudo ls
     diff file1.txt file3.txt
-    Hard and Soft Filesystem Links
+### Hard and Soft Filesystem Links
     cat hello.txt
     ln hello.txt hello-hard-link.txt
     <edit hello.txt>
